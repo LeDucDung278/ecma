@@ -13,25 +13,25 @@ const Header = {
                 chủ</a>
             </li>
             <li>
-              <a href="/tuyen-sinh" class="transition duration-200 ease-in-out block p-3 hover:bg-sky-500 hover:text-white">Tuyển
-                sinh</a>
+              <a href="/bai-viet" class="transition duration-300 ease-in-out block p-3 hover:bg-sky-500 hover:text-white">Bài viết</a>
             </li>
             <li>
               <a href="/chuong-trinh-dao-tao" class="transition duration-200 ease-in-out block p-3 hover:bg-sky-500 hover:text-white">Chương
                 trình đào tạo</a>
             </li>
             <li>
-              <a href="/goc-sinh-vien" class="transition duration-300 ease-in-out block p-3 hover:bg-sky-500 hover:text-white">Góc
-                sinh viên</a>
+              <a href="/admin/dashboard" class="transition duration-300 ease-in-out block p-3 hover:bg-sky-500 hover:text-white">Admin</a>
             </li>
-            <li>
-              <a href="/tuyen-dung" class="transition duration-300 ease-in-out block p-3 hover:bg-sky-500 hover:text-white">Tuyển
-                dụng</a>
-            </li>
+            
           </ul>
-          <div class="flex mx-10">
+          <div class="flex mx-24">
             <input type="text" class="bg-white border border-gray-300 rounded-md my-2">
             <button class="bg-sky-900 m-2 w-full rounded-md px-3 hover:bg-sky-600">Tìm kiếm</button>
+          </div>
+          <div class="m-3">
+            <a href="/sign-in" class="bg-[#0253a4] text-base text-[#fff] rounded-md hover:bg-[#012a4a] p-2">
+              Sign in
+            </a>
           </div>
         </nav>
         `;

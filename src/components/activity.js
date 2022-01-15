@@ -8,7 +8,7 @@ const Activity = {
                 ${data2.map((post) => `
                     <div class="border p-3">
                         <img src="${post.img}" alt="" />
-                        <h3><a href="/tuyen-dung/${post.id}" class="font-semibold text-red-600">${post.title}</a></h3>
+                        <h3><a href="/bai-viet/${post.id}" class="font-semibold text-red-600">${post.title}" class="font-semibold text-red-600">${post.title}</a></h3>
                         <p class="text-xs">${post.desc}</p>
                     </div>  
                     `).join("")}
